@@ -1,0 +1,25 @@
+.addtrans form{
+    padding: auto;
+    /* display: flex;  */
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.addtrans div
+{
+    padding: 5px 5px 5px 5px;
+}
+.addtrans input{
+    width: 80%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: navajowhite;
+    height: 30px;
+}
+.addtrans button{
+    width: 80%;
+    background-color: red;
+    border: none;
+    height: 40px;
+    color: white;
+}

@@ -1,0 +1,24 @@
+.incomeexpense
+{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: 2px solid black;
+    padding: 12px 12px;
+}
+.income{
+    width: 30%;
+    margin: auto;
+    padding: 12px 12px;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.expense 
+{
+    width: 30%;
+    padding: 12px 12px;
+    margin: auto;
+    text-align: center;
+   
+}
