@@ -14,6 +14,9 @@
     text-align: center;
     /* border: 2px solid black; */
 }
+.income p{
+    color: green;
+}
 .expense 
 {
     width: 30%;
@@ -21,4 +24,7 @@
     margin: auto;
     text-align: center;
    
+}
+.expense p{
+    color: red;
 }

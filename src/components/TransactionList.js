@@ -14,7 +14,7 @@ const TransactionList = () => {
                     transactions.map(item => {
                       return   <li>{item.text}
                             <span>
-                                <p>{item.amount}</p>
+                                <p>$ : {item.amount}</p>
                             </span>
                         </li>
                     })
