@@ -10,14 +10,15 @@ import Count  from './context/Count';
 
 function App() {
   return (
-    <Count/>
-      // <GlobalProvider>
-      // <Header/>
-      // <Balance/>
-      // <IncomeExpense/>
-      // <TransactionList/>
-      // <AddTransaction/>
-      // </GlobalProvider>
+    <div className='main'>
+      <GlobalProvider >
+      <Header/>
+      <Balance/>
+      <IncomeExpense/>
+      <TransactionList/>
+      <AddTransaction/>
+      </GlobalProvider>
+     </div>
   );
 }
 
